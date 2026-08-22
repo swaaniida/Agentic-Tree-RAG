@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "document": "National Parks of Europe - Lonely Planet",
+    "total_questions": 40,
+    "pages": 326,
+    "parks_covered": 60,
+    "categories": {
+      "A": "Selection — 단일 span/사실 추출, aggregation 없음",
+      "B": "Enumeration / Counting — 전체에서 항목 수집·개수 계산, coverage 필수",
+      "C": "Aggregation / Summarization — 여러 구간 의미 통합, Reduce reasoning 핵심",
+      "D": "Relational / Multi-hop — 서로 다른 위치 정보 연결, 계층적 reasoning 필요"
+    }
+  },
+  "questions": [
+    {
+      "id": "A01",
+      "category": "A",
+      "question": "What is the area covered by Abisko National Park in square kilometres?",
+      "answer": "77 sq km.",
+      "source": "Abisko — Park in numbers (p11)"
+    },
+    {
+      "id": "A02",
+      "category": "A",
+      "question": "How many lakes (estanys) fall within the boundaries of Aigüestortes i Estany de Sant Maurici National Park?",
+      "answer": "300 lakes.",
+      "source": "Aigüestortes — Park in numbers (p21)"
+    },
+    {
+      "id": "A03",
+      "category": "A",
+      "question": "What is the depth of the Tara River Canyon in Durmitor National Park?",
+      "answer": "1.3 km.",
+      "source": "Durmitor — Park in numbers (p85)"
+    },
+    {
+      "id": "A04",
+      "category": "A",
+      "question": "What is the highest recorded wind speed at the Cairn Gorm summit in the Cairngorms?",
+      "answer": "278 km/h.",
+      "source": "Cairngorms — Park in numbers (p53)"
+    },
+    {
+      "id": "A05",
+      "category": "A",
+      "question": "What is the total length of the drystone walls in Cinque Terre National Park?",
+      "answer": "6700 km.",
+      "source": "Cinque Terre — Park in numbers (p61)"
+    },
+    {
+      "id": "A06",
+      "category": "A",
+      "question": "In what year (BC) was the first recorded eruption of the Etna volcano?",
+      "answer": "475 BC.",
+      "source": "Etna — Park in numbers (p97)"
+    },
+    {
+      "id": "A07",
+      "category": "A",
+      "question": "What is the estimated age of the oldest tree in Pirin National Park, the Baykuchevata Macedonian pine?",
+      "answer": "1380 years.",
+      "source": "Pirin — Park in numbers (p217)"
+    },
+    {
+      "id": "A08",
+      "category": "A",
+      "question": "How many seagull pairs are on the Cíes archipelago in the Atlantic Islands of Galicia National Park?",
+      "answer": "22,000 seagull pairs.",
+      "source": "Atlantic Islands of Galicia — Park in numbers (p28)"
+    },
+    {
+      "id": "A09",
+      "category": "A",
+      "question": "What is the height of Závojový, the tallest waterfall in Slovenský Raj National Park?",
+      "answer": "70 metres.",
+      "source": "Slovenský Raj — Park in numbers (p267)"
+    },
+    {
+      "id": "A10",
+      "category": "A",
+      "question": "How many visitors does the Lake District National Park receive per year?",
+      "answer": "15 million visitors per year.",
+      "source": "Lake District — Park in numbers (p145)"
+    },
+    {
+      "id": "B01",
+      "category": "B",
+      "question": "List all the national parks in Italy that are featured in the book.",
+      "answer": "There are 6 Italian parks: Abruzzo (Parco Nazionale d'Abruzzo, Lazio e Molise), Arcipelago di La Maddalena, Cinque Terre, Dolomiti Bellunesi, Etna, and Golfo di Orosei e del Gennargentu.",
+      "source": "Table of Contents (p5) — Abruzzo (p12), La Maddalena (p22), Cinque Terre (p56), Dolomiti Bellunesi (p28), Etna (p92), Golfo di Orosei (p102)"
+    },
+    {
+      "id": "B02",
+      "category": "B",
+      "question": "How many national parks featured in the book are located in the United Kingdom (England, Scotland, Wales)?",
+      "answer": "8 parks: Brecon Beacons (Wales), Cairngorms (Scotland), Dartmoor (England), Lake District (England), Loch Lomond and The Trossachs (Scotland), Peak District (England), Pembrokeshire Coast (Wales), and Snowdonia (Wales).",
+      "source": "Table of Contents (p5) + country labels on each park's opening page"
+    },
+    {
+      "id": "B03",
+      "category": "B",
+      "question": "List all the national parks featured in the book that are located in Spain.",
+      "answer": "There are 6 Spanish parks: Aigüestortes i Estany de Sant Maurici, Atlantic Islands of Galicia, Doñana, Ordesa, Picos de Europa, and Sierra Nevada.",
+      "source": "Table of Contents (p5) + individual park country labels"
+    },
+    {
+      "id": "B04",
+      "category": "B",
+      "question": "List all the parks in the book that are located in Scandinavian countries (Sweden, Norway, Finland, Iceland).",
+      "answer": "10 parks: Abisko (Sweden), Sarek (Sweden), Hardangervidda (Norway), Jostedalsbreen (Norway), Jotunheimen (Norway), Nordvest-Spitsbergen (Norway), Lemmenjoki (Finland), Oulanka (Finland), Snæfellsjökull (Iceland), and Vatnajökull (Iceland).",
+      "source": "Table of Contents (p5) + country labels on each park's opening page"
+    },
+    {
+      "id": "B05",
+      "category": "B",
+      "question": "Which parks in the book have their highest point above 3000 metres?",
+      "answer": "Parks with peaks above 3000m: Aigüestortes (Pic de Comolaforno, 3033m), Écrins (Barre des Écrins, 4102m), Etna (3350m), Hohe Tauern (Grossglockner, 3798m), Ordesa (Monte Perdido, 3348m), Pyrenees (Vignemale, 3298m), Sierra Nevada (Mulhacén, 3479m), and Swiss National Park (Piz Pisoc, 3174m).",
+      "source": "Park in numbers sections across all parks with elevation data"
+    },
+    {
+      "id": "B06",
+      "category": "B",
+      "question": "Which national parks featured in the book specifically mention bears as wildlife you might see?",
+      "answer": "Parks mentioning bears: Abruzzo (Marsican brown bear, around 100 in the park), Picos de Europa (estimated 30 brown bears), and Nordvest-Spitsbergen (estimated 3500 polar bears in Spitsbergen). Paklenica mentions a 30,000-year-old excavated cave bear skull.",
+      "source": "What to spot sections — Abruzzo (p18), Picos de Europa (p211), Nordvest-Spitsbergen (p167), Paklenica (p183)"
+    },
+    {
+      "id": "B07",
+      "category": "B",
+      "question": "How many national parks in the book have their area measured at less than 100 sq km?",
+      "answer": "Parks under 100 sq km: Abisko (77 sq km), Cinque Terre (39 sq km), Connemara (29.6 sq km), Saxon Switzerland (93.5 sq km), Paklenica (95 sq km), Valbona Valley (80 sq km), and Port-Cros (17 sq km land area). That is 7 parks. Additionally, the Curonian Spit (98 km length, not measured in area sq km) and Kornati's 320 sq km is sea area only.",
+      "source": "Park in numbers sections across all parks"
+    },
+    {
+      "id": "B08",
+      "category": "B",
+      "question": "List all the parks in the book that are located in the Balkans: Croatia, Montenegro, Albania, and Bulgaria.",
+      "answer": "7 parks: Kornati (Croatia), Paklenica (Croatia), Plitvice (Croatia), Durmitor (Montenegro), Lake Skadar (Montenegro), Valbona Valley (Albania), and Pirin (Bulgaria).",
+      "source": "Table of Contents (p5) + individual park country labels"
+    },
+    {
+      "id": "B09",
+      "category": "B",
+      "question": "Which parks in the book mention a specific number of butterfly species?",
+      "answer": "Parks mentioning butterfly numbers: Plitvice (321 species of butterfly), Kornati (69 varieties of butterfly).",
+      "source": "Plitvice — Park in numbers (p223), Kornati — Park in numbers (p139)"
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "question": "How many total national parks are featured in the book, and list the two parks in Ireland.",
+      "answer": "The book features 60 national parks in total. The two Irish parks are Connemara and Killarney.",
+      "source": "Introduction (p5/8) + Table of Contents"
+    },
+    {
+      "id": "C01",
+      "category": "C",
+      "question": "Summarize the wildlife diversity across the Alpine national parks featured in the book (Berchtesgaden, Hohe Tauern, Swiss National Park, Dolomiti Bellunesi).",
+      "answer": "The Alpine parks share common wildlife including chamois, ibex, marmots, and golden eagles. Berchtesgaden (210 sq km) features blue hares, red deer, capercaillies, alpine salamanders with 2-3 year gestation periods, and gentian flowers. Hohe Tauern, the largest Alpine park at 1856 sq km, has 300 peaks above 3000m with the Grossglockner at 3798m. Dolomiti Bellunesi has a chamois population of 2000. Swiss National Park (170.3 sq km) features ibex, glaciers, and dolomitic peaks with 80 km of marked hiking trails. Birds of prey including golden eagles, hawks, and woodpeckers are common across all. Edelweiss and Alpine rhododendrons feature in the flora.",
+      "source": "Berchtesgaden (p39-42), Hohe Tauern (p113-114), Swiss (p286-287), Dolomiti Bellunesi (p33-35)"
+    },
+    {
+      "id": "C02",
+      "category": "C",
+      "question": "Describe the range of park sizes featured in the book, from the smallest to the largest, including specific examples.",
+      "answer": "Park sizes span over 800-fold. The smallest parks include Port-Cros (17 sq km land area), Connemara (29.6 sq km), and Cinque Terre (39 sq km). Mid-sized parks include Abisko (77 sq km), Berchtesgaden (210 sq km), Abruzzo (440 sq km), and Peak District (1437 sq km). Larger parks include Hohe Tauern (1856 sq km, largest in the Alps), Sarek (1977 sq km), Hardangervidda (3430 sq km), Nordvest-Spitsbergen (3583 sq km land area), and Cairngorms (4528 sq km, UK's largest). The largest by far is Vatnajökull in Iceland at 13,600 sq km.",
+      "source": "Park in numbers sections across all 60 featured parks"
+    },
+    {
+      "id": "C03",
+      "category": "C",
+      "question": "Summarize how the book describes winter activities across different European national parks.",
+      "answer": "Winter activities vary by latitude and altitude. In the Arctic, Abisko offers skiing under the northern lights from November to March, plus dog-sledding and aurora viewing from the Aurora Sky Station on Mount Nuolja. Oulanka in Finland boasts one of the world's longest ski seasons (October to June). Alpine parks such as Berchtesgaden, Hohe Tauern, and Sierra Nevada have ski seasons from roughly December to March. Etna has ski resorts in Nicolosi and Linguaglossa. In the UK, Snowdonia sees strong winds and blankets of snow, while the Peak District is reserved for hardy souls in winter. Gauja in Latvia combines park skiing with steam in a local pirts (sauna). Lahemaa in Estonia transforms into a wonderland of snowy shores and frozen seas. Slovenský Raj offers frozen waterfalls and skiing.",
+      "source": "When to go sections + activity descriptions across Abisko (p11), Oulanka (p179), Berchtesgaden (p39), Etna (p97), Snowdonia (p279), Peak District (p189), Gauja (p101), Lahemaa (p141), Slovenský Raj (p267)"
+    },
+    {
+      "id": "C04",
+      "category": "C",
+      "question": "Summarize the geological features described across the parks, including volcanic activity, glacial formations, and karst landscapes.",
+      "answer": "The book describes diverse geological features. Volcanic activity is prominent at Etna (first eruption 475 BC, 3350m active volcano), Vatnajökull (last eruption of Grímsvötn volcano in 2011, 1 km thick ice cap), and Snæfellsjökull (1446m active volcano, Columbus reportedly visited in 1477). Glacial formations dominate in Abisko (valleys wrestled from ice age), Jostedalsbreen (400,000 tonnes of rock eroded by glacier annually), Jotunheimen (over 60 glaciers), and Hohe Tauern (Pasterze glacier). Aigüestortes was sculpted by glaciers over two million years. Karst landscapes appear in Durmitor (18 glacial lakes), Plitvice (tufa deposits estimated 6000 years old), Slovenský Raj (450 caves and sinkholes), and the Black Forest was shaped 15,000 years ago.",
+      "source": "Etna (p97), Vatnajökull (p307), Snæfellsjökull (p273), Abisko (p11), Jostedalsbreen (p121), Jotunheimen (p127), Hohe Tauern (p113), Aigüestortes (p21), Durmitor (p85), Plitvice (p223), Slovenský Raj (p267), Black Forest (p43)"
+    },
+    {
+      "id": "C05",
+      "category": "C",
+      "question": "How does the book characterize the role of indigenous peoples and local cultural traditions in European national parks?",
+      "answer": "Indigenous and local cultures feature prominently. Abisko is part of Sápmi, the Sámi homeland spanning northern Sweden, Norway, Finland and Russia's Kola Peninsula, with 10,000 years of Sámi habitation; the village of Rávttas teaches about nomadic reindeer-based life. The Carpathian park highlights the colourful Hutsul people and upland traditions. Hortobágy preserves Hungary's cowboy heritage at the 300-year-old Máta Stud Farm, with 135,000 migrating cranes annually. Connemara is Ireland's largest Gaeltacht (Irish-speaking region). The Brecon Beacons show 8000 years of human activity including stone circles and Neolithic tombs. Dartmoor features the world's longest row of standing stones at 3.1 km (Upper Erme). The Curonian Spit formation dates back 5500 years.",
+      "source": "Abisko (p11-12), Carpathian (p57), Hortobágy (p117), Connemara (p67), Brecon Beacons (p47), Dartmoor (p75), Curonian Spit (p71)"
+    },
+    {
+      "id": "C06",
+      "category": "C",
+      "question": "Summarize the endangered species and conservation stories described across the parks in the book.",
+      "answer": "The book highlights several conservation cases. In Abruzzo, the Abruzzo chamois had almost died out with just a few dozen left when the park was established, but recovered to over 2000. Around 100 Marsican brown bears live in the park. Doñana protects the Iberian lynx (76 counted in 2015), the world's most endangered wild cat, alongside the imperilled imperial eagle; 360 bird species are recorded. Picos de Europa has an estimated 30 brown bears. Nordvest-Spitsbergen hosts about 3500 polar bears. Lemmenjoki shelters 29 endangered European bird species. Sierra Nevada has 5000 wild ibex roaming free. Lake Skadar hosts 270 bird species and 48 fish species. Plitvice protects the lady's-slipper orchid, a protected species.",
+      "source": "Abruzzo (p18), Doñana (p79), Picos de Europa (p211), Nordvest-Spitsbergen (p167), Lemmenjoki (p155), Sierra Nevada (p261), Lake Skadar (p151), Plitvice (p226)"
+    },
+    {
+      "id": "C07",
+      "category": "C",
+      "question": "Summarize the hiking trail systems described across UK national parks in the book.",
+      "answer": "The Cairngorms (4528 sq km, UK's largest) offers subarctic plateau hikes near Ben Macdui (1309m), with golden eagles overhead. The Lake District features Scafell Pike (978m, England's highest, 5-6 hour ascent from Borrowdale), Helvellyn via Striding Edge (15.4 km with serious exposure), Old Man of Coniston (803m, 6km), and the 112km Cumbria Path from Ulverston to Carlisle. Snowdonia (2170 sq km) has the Crib Goch trail and Pyg Path to Snowdon summit (1085m). Brecon Beacons centres on Pen-y-Fan (886m). The Peak District (1437 sq km) features Kinder Scout (636m). Dartmoor (954 sq km) offers granite tor walks to High Willhays Tor (621m). Loch Lomond (1865 sq km) has 22 lochs with Ben More (1174m). Pembrokeshire Coast covers 612 sq km of coastline.",
+      "source": "Cairngorms (p53), Lake District (p145-147), Snowdonia (p279-282), Brecon Beacons (p47), Peak District (p189), Dartmoor (p75), Loch Lomond (p159), Pembrokeshire (p197)"
+    },
+    {
+      "id": "C08",
+      "category": "C",
+      "question": "How does the book describe the best seasons to visit different types of parks across Europe?",
+      "answer": "Seasonal advice varies by geography. Arctic/Nordic parks (Abisko, Sarek, Lemmenjoki) are best May-July for midnight sun hiking, with winter for aurora and skiing. Alpine parks (Berchtesgaden, Hohe Tauern, Swiss) recommend summer (June-September) for snow-free trails, late spring for wildflowers, autumn for stag rutting. Mediterranean parks (Cinque Terre, Golfo di Orosei) are best April-June and September, warning against hot, overcrowded July-August. UK parks favour May-June; Brecon Beacons has the Hay Festival in May and Green Man in August. Plitvice and Pirin suggest spring/autumn for birds, wildflowers, and fewer tourists. Marine parks (La Maddalena, Kornati) run Easter to October. Hardangervidda is hikeable in July-August only, with cross-country skiing the rest of the year.",
+      "source": "When to go sections across all 60 parks"
+    },
+    {
+      "id": "C09",
+      "category": "C",
+      "question": "Summarize how the book describes water features (lakes, waterfalls, rivers, seas) across European national parks.",
+      "answer": "Water features are central to many parks. Aigüestortes boasts 300 lakes covering 15% of its surface area. Plitvice is a maze of turquoise lakes with 6000-year-old tufa deposits. Pirin contains 176 lakes. Durmitor has 18 glacial lakes and the 1.3 km deep Tara River Canyon. Jotunheimen has over 60 glaciers. Jostedalsbreen's glaciers erode 400,000 tonnes of rock annually. Hohe Tauern features the Krimml Falls at 380m, described as Europe's highest waterfall. The Black Forest has Allerheiligen Falls at 90m. Lake Skadar covers 370-550 sq km. Loch Lomond has 22 lochs. Vatnajökull's 1 km thick ice cap sits above active volcanoes. Lake Bohinj in Triglav is 45m deep. Jotunheimen has the 275m Vettisfossen, Norway's biggest single-drop waterfall. Port-Cros has 6 shipwrecks in its marine area.",
+      "source": "Aigüestortes (p21), Plitvice (p223), Pirin (p217), Durmitor (p85), Jotunheimen (p127), Jostedalsbreen (p121), Hohe Tauern (p113), Black Forest (p43-44), Lake Skadar (p151), Loch Lomond (p159), Vatnajökull (p307), Triglav (p299), Port-Cros (p231)"
+    },
+    {
+      "id": "C10",
+      "category": "C",
+      "question": "Summarize the unique numerical facts (non-area, non-elevation) that the 'Park in numbers' sections highlight for each park.",
+      "answer": "Each park highlights distinctive statistics. Abisko: 10,000 years of Sámi habitation. Abruzzo: 60% forest cover. Cinque Terre: 6700 km drystone walls, 120 km paths. Connemara: 1919 first transatlantic flight landed in Clifden. Dartmoor: 3.1 km world's longest row of standing stones. Doñana: 76 Iberian lynx (2015), 360 bird species. Hortobágy: 135,000 migrating cranes annually. Jostedalsbreen: 400,000 tonnes glacier erosion per year. Hardangervidda: 7000 wild reindeer. Pirin: 1380-year-old Macedonian pine. Plitvice: 321 butterfly species, 6000-year-old tufa. Port-Cros: 350 permanent inhabitants, 6 shipwrecks. Pembrokeshire: longest Welsh word has 58 letters. Vikos-Aoös: 2 dragons (legend), 46 Zagorohoria villages. Wadden Sea: 10-12 million migratory birds, 3 countries sharing eco-region.",
+      "source": "Park in numbers sections across all parks"
+    },
+    {
+      "id": "D01",
+      "category": "D",
+      "question": "Which is larger, Cairngorms or Sarek National Park, and which has a higher highest point?",
+      "answer": "Cairngorms (4528 sq km) is larger than Sarek (1977 sq km). However, Sarek's highest point, Sarektjåkkå at 2089m, is higher than Cairngorms' Ben Macdui at 1309m. So Cairngorms wins on area but Sarek wins on elevation.",
+      "source": "Cairngorms — Park in numbers (p53), Sarek — Park in numbers (p247)"
+    },
+    {
+      "id": "D02",
+      "category": "D",
+      "question": "Comparing Abisko and Sarek, both in Swedish Lappland: how do they differ in area, highest point, and duration of human habitation?",
+      "answer": "Abisko covers 77 sq km with its highest point at Mount Kebnekaise (2106m) and 10,000 years of Sámi habitation. Sarek is much larger at 1977 sq km but has a slightly lower highest point at Sarektjåkkå (2089m), with 8,000-10,000 years of human activity. Sarek is about 25 times larger in area, but Abisko has a marginally higher peak (2106m vs 2089m). Both share a similar timeframe of indigenous presence.",
+      "source": "Abisko — Park in numbers (p11), Sarek — Park in numbers (p247)"
+    },
+    {
+      "id": "D03",
+      "category": "D",
+      "question": "If you wanted to see both polar bears and the Iberian lynx in European national parks, which two parks would you visit, and in which countries are they located?",
+      "answer": "For polar bears, visit Nordvest-Spitsbergen National Park in Norway (Svalbard), which has approximately 3500 polar bears. For the Iberian lynx, visit Doñana National Park in southwestern Spain, which had 76 Iberian lynx counted in 2015. You would need to travel from Arctic Norway to southwestern Spain.",
+      "source": "Nordvest-Spitsbergen — Park in numbers (p167), Doñana — Park in numbers (p79)"
+    },
+    {
+      "id": "D04",
+      "category": "D",
+      "question": "Comparing the two Croatian parks Plitvice and Kornati: how do they differ in what they protect (land vs sea), and what distinctive numbers characterise each?",
+      "answer": "Plitvice is a terrestrial park (296.85 sq km), famous for turquoise lakes, 321 butterfly species, and tufa deposits estimated at 6000 years old. Kornati is a marine park (320 sq km sea area) with 89 islands and 69 varieties of butterfly. Plitvice protects inland lakes and forests while Kornati protects a sea archipelago. Plitvice has far more butterfly species (321 vs 69).",
+      "source": "Plitvice — Park in numbers (p223), Kornati — Park in numbers (p139)"
+    },
+    {
+      "id": "D05",
+      "category": "D",
+      "question": "Among the Italian parks in the book, which has the smallest area and which has the largest, and what are their respective areas?",
+      "answer": "The smallest Italian park is Cinque Terre at 39 sq km. The largest is Golfo di Orosei e del Gennargentu at 730 sq km. The other Italian parks: Arcipelago di La Maddalena (150 sq km marine area), Dolomiti Bellunesi (315 sq km), Abruzzo (440 sq km), and Etna (581 sq km).",
+      "source": "Cinque Terre (p61), La Maddalena (p25), Dolomiti Bellunesi (p33), Abruzzo (p17), Etna (p97), Golfo di Orosei (p105)"
+    },
+    {
+      "id": "D06",
+      "category": "D",
+      "question": "Hohe Tauern states it has 300 peaks above 3000m. Does Jotunheimen also have peaks above 3000m, based on its listed highest point?",
+      "answer": "No. Hohe Tauern explicitly states 300 peaks above 3000m, with Grossglockner at 3798m. Jotunheimen's highest point is Galdhøpiggen at 2469m, which means none of its peaks reach 3000m. However, Jotunheimen has over 60 glaciers and its area is listed as 1151 sq miles. Hohe Tauern is the larger alpine park with far higher peaks.",
+      "source": "Hohe Tauern — Park in numbers (p113), Jotunheimen — Park in numbers (p127)"
+    },
+    {
+      "id": "D07",
+      "category": "D",
+      "question": "How do the Lake District and Snowdonia compare in terms of area, highest point, and year-specific facts?",
+      "answer": "The Lake District covers 2292 sq km with Scafell Pike at 978m and receives 15 million visitors per year. Snowdonia covers 2170 sq km with Snowdon at 1085m; the first cafe at the summit opened in 1920. Snowdonia is slightly smaller in area but has a higher peak (1085m vs 978m). The Lake District highlights its massive visitor numbers, while Snowdonia highlights its summit cafe history.",
+      "source": "Lake District — Park in numbers (p145), Snowdonia — Park in numbers (p279)"
+    },
+    {
+      "id": "D08",
+      "category": "D",
+      "question": "Compare the Abruzzo chamois conservation story with the Iberian lynx situation in Doñana. How do the population numbers and trajectories differ?",
+      "answer": "In Abruzzo, the Abruzzo chamois had almost died out when the park was established, with just a few dozen remaining, but recovered to over 2000 — a dramatic conservation success. In Doñana, the Iberian lynx, the world's most endangered wild cat, numbered only 76 in 2015 and remains critically low. The chamois population is roughly 26 times larger than the lynx count. The chamois represents a completed recovery; the lynx remains an ongoing crisis.",
+      "source": "Abruzzo — What to spot (p18), Doñana — Park in numbers (p79)"
+    },
+    {
+      "id": "D09",
+      "category": "D",
+      "question": "Which park in the book is the absolute largest by area, and which has the absolute highest point? Are they the same park?",
+      "answer": "They are different parks. The largest park by area is Vatnajökull in Iceland at 13,600 sq km. The highest point among all parks belongs to Écrins in France, with Barre des Écrins at 4102m. Other high-point contenders include Grossglockner in Hohe Tauern at 3798m, Mulhacén in Sierra Nevada at 3479m, and Etna at 3350m.",
+      "source": "Vatnajökull — Park in numbers (p307), Écrins — Park in numbers (p91)"
+    },
+    {
+      "id": "D10",
+      "category": "D",
+      "question": "Compare the three parks that emphasise migratory birds: Hortobágy, Wadden Sea, and Lake Skadar. What are each park's bird-related statistics?",
+      "answer": "Hortobágy (Hungary, 820 sq km) highlights 135,000 migrating cranes at peak annual population. Wadden Sea (Denmark, 1466 sq km) receives 10-12 million migratory birds visiting twice yearly, shared across 3 countries. Lake Skadar (Montenegro, 370-550 sq km) hosts 270 bird species and 48 fish species. Wadden Sea has by far the largest migratory bird numbers (10-12 million), while Hortobágy focuses specifically on cranes. Lake Skadar emphasises species diversity rather than raw population numbers.",
+      "source": "Hortobágy — Park in numbers (p117), Wadden Sea — Park in numbers (p315), Lake Skadar — Park in numbers (p151)"
+    }
+  ]
+}

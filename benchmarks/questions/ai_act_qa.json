@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "document": "EU AI Act - COM(2021) 206 final",
+    "total_questions": 40,
+    "categories": {
+      "A": "Selection (단일 사실 추출)",
+      "B": "Enumeration / Counting (항목 수집·개수 계산)",
+      "C": "Aggregation / Summarization (여러 구간 의미 통합)",
+      "D": "Relational / Multi-hop (서로 다른 위치 정보 연결)"
+    }
+  },
+  "questions": [
+    {
+      "id": "A01",
+      "category": "A",
+      "question": "What is the maximum administrative fine for non-compliance with the prohibited AI practices under Article 5?",
+      "answer": "Up to 30,000,000 EUR or, if the offender is a company, up to 6% of its total worldwide annual turnover for the preceding financial year, whichever is higher.",
+      "source": "Article 71(3)"
+    },
+    {
+      "id": "A02",
+      "category": "A",
+      "question": "How long must a provider keep the EU declaration of conformity at the disposal of national competent authorities after an AI system has been placed on the market?",
+      "answer": "10 years after the AI system has been placed on the market or put into service.",
+      "source": "Article 48(1) / Article 50"
+    },
+    {
+      "id": "A03",
+      "category": "A",
+      "question": "Who chairs the European Artificial Intelligence Board?",
+      "answer": "The Commission. The Commission convenes the meetings and prepares the agenda.",
+      "source": "Article 57(3)"
+    },
+    {
+      "id": "A04",
+      "category": "A",
+      "question": "What is the definition of 'artificial intelligence system' (AI system) as stated in the Regulation?",
+      "answer": "Software that is developed with one or more of the techniques and approaches listed in Annex I and can, for a given set of human-defined objectives, generate outputs such as content, predictions, recommendations, or decisions influencing the environments they interact with.",
+      "source": "Article 3(1)"
+    },
+    {
+      "id": "A05",
+      "category": "A",
+      "question": "Within what maximum timeframe must a provider report a serious incident or malfunctioning of a high-risk AI system after becoming aware of it?",
+      "answer": "Not later than 15 days after the provider becomes aware of the serious incident or of the malfunctioning.",
+      "source": "Article 62(1)"
+    },
+    {
+      "id": "A06",
+      "category": "A",
+      "question": "Who is designated as the controller of the EU database for stand-alone high-risk AI systems?",
+      "answer": "The Commission shall be the controller of the EU database.",
+      "source": "Article 60(5)"
+    },
+    {
+      "id": "A07",
+      "category": "A",
+      "question": "How long after its publication in the Official Journal of the European Union does this Regulation enter into force?",
+      "answer": "On the twentieth day following that of its publication in the Official Journal of the European Union.",
+      "source": "Article 85(1)"
+    },
+    {
+      "id": "A08",
+      "category": "A",
+      "question": "What is the legal basis (Treaty article) for this AI Act proposal?",
+      "answer": "Article 114 of the Treaty on the Functioning of the European Union (TFEU), which provides for the adoption of measures to ensure the establishment and functioning of the internal market.",
+      "source": "Section 2.1 Legal basis"
+    },
+    {
+      "id": "A09",
+      "category": "A",
+      "question": "What maximum validity period is allowed for certificates issued by notified bodies?",
+      "answer": "Certificates shall be valid for the period they indicate, which shall not exceed five years. The validity may be extended for further periods, each not exceeding five years.",
+      "source": "Article 44(2)"
+    },
+    {
+      "id": "A10",
+      "category": "A",
+      "question": "By what voting rule does the European Artificial Intelligence Board adopt its rules of procedure?",
+      "answer": "By a simple majority of its members, following the consent of the Commission.",
+      "source": "Article 57(2)"
+    },
+    {
+      "id": "B01",
+      "category": "B",
+      "question": "How many Titles does the AI Act Regulation contain?",
+      "answer": "12 Titles: Title I (Scope and Definitions), Title II (Prohibited AI Practices), Title III (High-Risk AI Systems), Title IV (Transparency Obligations), Title V (Measures in Support of Innovation), Title VI (Governance), Title VII (EU Database), Title VIII (Post-Market Monitoring, Information Sharing, Market Surveillance), Title IX (Codes of Conduct), Title X (Confidentiality and Penalties), Title XI (Delegation of Power and Committee Procedure), Title XII (Final Provisions).",
+      "source": "Table of Contents / Full Regulation structure"
+    },
+    {
+      "id": "B02",
+      "category": "B",
+      "question": "List all the prohibited AI practices specified in Article 5(1).",
+      "answer": "Four prohibited practices: (a) AI systems deploying subliminal techniques beyond a person's consciousness to materially distort behavior causing harm; (b) AI systems exploiting vulnerabilities of specific groups (age, disability) to distort behavior causing harm; (c) AI systems used by public authorities for social scoring leading to detrimental or unfavorable treatment; (d) Use of 'real-time' remote biometric identification systems in publicly accessible spaces for law enforcement (with limited exceptions).",
+      "source": "Article 5(1)(a)-(d)"
+    },
+    {
+      "id": "B03",
+      "category": "B",
+      "question": "What are all the data governance and management practices that training, validation and testing data sets must be subject to, as listed in Article 10(2)?",
+      "answer": "Seven practices: (a) relevant design choices; (b) data collection; (c) relevant data preparation processing operations such as annotation, labelling, cleaning, enrichment and aggregation; (d) formulation of relevant assumptions about what the data are supposed to measure and represent; (e) prior assessment of the availability, quantity and suitability of data sets needed; (f) examination in view of possible biases; (g) identification of any possible data gaps or shortcomings and how they can be addressed.",
+      "source": "Article 10(2)(a)-(g)"
+    },
+    {
+      "id": "B04",
+      "category": "B",
+      "question": "List all the obligations of providers of high-risk AI systems as enumerated in Article 16.",
+      "answer": "Ten obligations: (a) ensure compliance with Chapter 2 requirements; (b) have a quality management system per Article 17; (c) draw up technical documentation; (d) keep automatically generated logs; (e) ensure relevant conformity assessment procedure; (f) comply with registration obligations (Article 51); (g) take corrective actions for non-conformity; (h) inform national competent authorities and notified bodies of non-compliance and corrective actions; (i) affix CE marking; (j) demonstrate conformity upon request of a national competent authority.",
+      "source": "Article 16(a)-(j)"
+    },
+    {
+      "id": "B05",
+      "category": "B",
+      "question": "How many tiers of administrative fines are defined in Article 71, and what are the amounts for each tier?",
+      "answer": "Three tiers: (1) Up to 30,000,000 EUR or 6% of worldwide annual turnover for violations of Article 5 (prohibited practices) and Article 10 (data requirements); (2) Up to 20,000,000 EUR or 4% of worldwide annual turnover for non-compliance with any other requirements or obligations; (3) Up to 10,000,000 EUR or 2% of worldwide annual turnover for supplying incorrect, incomplete or misleading information to notified bodies and national competent authorities.",
+      "source": "Article 71(3)-(5)"
+    },
+    {
+      "id": "B06",
+      "category": "B",
+      "question": "List all the documents that a provider must keep at the disposal of national competent authorities for 10 years under Article 50.",
+      "answer": "Five types of documents: (a) the technical documentation referred to in Article 11; (b) the documentation concerning the quality management system referred to in Article 17; (c) the documentation concerning the changes approved by notified bodies, where applicable; (d) the decisions and other documents issued by the notified bodies, where applicable; (e) the EU declaration of conformity referred to in Article 48.",
+      "source": "Article 50(a)-(e)"
+    },
+    {
+      "id": "B07",
+      "category": "B",
+      "question": "What are the steps that the risk management system must comprise according to Article 9(2)?",
+      "answer": "Four steps: (a) identification and analysis of the known and foreseeable risks associated with each high-risk AI system; (b) estimation and evaluation of the risks that may emerge when used in accordance with intended purpose and under conditions of reasonably foreseeable misuse; (c) evaluation of other possibly arising risks based on analysis of data gathered from the post-market monitoring system (Article 61); (d) adoption of suitable risk management measures.",
+      "source": "Article 9(2)(a)-(d)"
+    },
+    {
+      "id": "B08",
+      "category": "B",
+      "question": "List all the transparency obligations for certain AI systems specified in Article 52.",
+      "answer": "Three transparency obligations: (1) Providers must ensure AI systems intended to interact with natural persons inform people they are interacting with an AI system; (2) Users of emotion recognition or biometric categorisation systems must inform exposed natural persons of the system's operation; (3) Users of AI systems generating or manipulating deepfake content must disclose that the content has been artificially generated or manipulated.",
+      "source": "Article 52(1)-(3)"
+    },
+    {
+      "id": "B09",
+      "category": "B",
+      "question": "How many specific objectives does the AI Act proposal set out, and what are they?",
+      "answer": "Four specific objectives: (1) ensure AI systems placed on the Union market are safe and respect fundamental rights and Union values; (2) ensure legal certainty to facilitate investment and innovation in AI; (3) enhance governance and effective enforcement of existing law on fundamental rights and safety requirements; (4) facilitate the development of a single market for lawful, safe and trustworthy AI applications and prevent market fragmentation.",
+      "source": "Section 1.1 Reasons for and objectives"
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "question": "List all the entities to which this Regulation applies according to Article 2(1).",
+      "answer": "Three categories: (a) providers placing on the market or putting into service AI systems in the Union, irrespective of whether those providers are established within the Union or in a third country; (b) users of AI systems located within the Union; (c) providers and users of AI systems that are located in a third country, where the output produced by the system is used in the Union.",
+      "source": "Article 2(1)(a)-(c)"
+    },
+    {
+      "id": "C01",
+      "category": "C",
+      "question": "Summarize the overall regulatory approach of the AI Act: how does it balance innovation with risk management?",
+      "answer": "The AI Act follows a risk-based approach that differentiates between AI uses creating (i) unacceptable risk (prohibited practices in Title II), (ii) high risk (subject to mandatory requirements and conformity assessment in Title III), and (iii) low/minimal risk (subject only to limited transparency obligations in Title IV). This proportionate approach imposes regulatory burdens only when AI systems are likely to pose high risks to fundamental rights and safety, while avoiding unduly constraining technological development. It also supports innovation through regulatory sandboxes (Title V), codes of conduct (Title IX), and measures for small-scale providers and start-ups. The framework is designed to be technology-neutral and future-proof, with the Commission empowered to update annexes via delegated acts as technology evolves.",
+      "source": "Explanatory Memorandum Sections 1.1, 2.3, 5.2; Articles 4, 5, 6, 53, 55, 69"
+    },
+    {
+      "id": "C02",
+      "category": "C",
+      "question": "Summarize the complete lifecycle obligations for providers of high-risk AI systems, from development to post-market.",
+      "answer": "Providers must fulfill obligations across the entire lifecycle: During development, they must implement a risk management system (Article 9), ensure data governance and quality (Article 10), prepare technical documentation (Article 11), design for record-keeping/logging (Article 12), transparency (Article 13), human oversight (Article 14), and accuracy/robustness/cybersecurity (Article 15). Before market placement, they must put a quality management system in place (Article 17), undergo conformity assessment (Article 19), draw up an EU declaration of conformity (Article 48), affix CE marking (Article 49), and register in the EU database (Article 51). Post-market, they must maintain a monitoring system (Article 61), report serious incidents within 15 days (Article 62), keep logs and documentation for 10 years (Articles 20, 50), take corrective actions when needed (Article 21), inform authorities of non-compliance (Article 22), and cooperate with competent authorities (Article 23).",
+      "source": "Articles 9-15, 16-23, 48-51, 61-62"
+    },
+    {
+      "id": "C03",
+      "category": "C",
+      "question": "Summarize how the AI Act addresses the protection of fundamental rights throughout its provisions.",
+      "answer": "The AI Act protects fundamental rights through multiple mechanisms: It prohibits AI practices that manipulate behavior via subliminal techniques or exploit vulnerabilities (Article 5). High-risk AI systems impacting fundamental rights areas (e.g., biometric identification, education, employment, law enforcement, migration, justice) face mandatory requirements including bias prevention through data governance (Article 10), transparency to enable informed use (Article 13), human oversight to prevent or minimize risks (Article 14), and accuracy/robustness requirements (Article 15). Market surveillance authorities must inform national public authorities supervising fundamental rights when risks are present (Article 65). These authorities have power to request documentation (Article 64(3)). Providers must report incidents constituting breaches of fundamental rights obligations (Article 62). The Commission reviews the regulation's impact on fundamental rights every four years (Article 84).",
+      "source": "Articles 5, 10, 13, 14, 15, 62, 64, 65, 84; Recitals"
+    },
+    {
+      "id": "C04",
+      "category": "C",
+      "question": "Summarize all the mechanisms the AI Act provides to support innovation and small-scale providers.",
+      "answer": "The AI Act includes several innovation-supporting mechanisms: AI regulatory sandboxes allow controlled development, testing, and validation of innovative AI systems under competent authority supervision before market placement (Article 53). Within sandboxes, personal data processing for public interest AI is permitted under specific conditions (Article 54). Small-scale providers and start-ups receive priority access to sandboxes (Article 55(1)(a)), specific awareness-raising activities (Article 55(1)(b)), dedicated communication channels for guidance (Article 55(1)(c)), and reduced conformity assessment fees proportionate to their size (Article 55(2)). Codes of conduct encourage voluntary compliance for non-high-risk AI systems (Article 69). Penalties must take into account the interests and economic viability of small-scale providers and start-ups (Article 71(1)). The Commission and Board consider the needs of small-scale providers when encouraging codes of conduct (Article 69(4)).",
+      "source": "Articles 53, 54, 55, 69, 71"
+    },
+    {
+      "id": "C05",
+      "category": "C",
+      "question": "Summarize the conformity assessment framework for high-risk AI systems, including the different procedures and when each applies.",
+      "answer": "The conformity assessment framework has two main paths depending on the type of high-risk AI system. For systems listed in Annex III point 1 (biometric identification): if the provider has applied harmonised standards (Article 40) or common specifications (Article 41), they may choose either internal control (Annex VI) or assessment involving a notified body (Annex VII); if standards were not applied, the notified body procedure (Annex VII) is mandatory (Article 43(1)). For all other high-risk systems in Annex III, the internal control procedure (Annex VI) applies (Article 43(2)). For high-risk AI systems that are safety components of products under Annex II, they undergo conformity assessment under the applicable sectoral legislation. Certificates issued by notified bodies are valid for up to five years, extendable (Article 44). A derogation exists for exceptional public security reasons (Article 47). Credit institutions follow their own regulatory assessment procedures (Article 19(2)).",
+      "source": "Articles 19, 40, 41, 43, 44, 47"
+    },
+    {
+      "id": "C06",
+      "category": "C",
+      "question": "Summarize the governance structure established by the AI Act, including all the bodies involved and their roles.",
+      "answer": "The governance structure operates at both EU and national levels. At the EU level, the European Artificial Intelligence Board (Article 56) provides advice and assistance to the Commission, coordinates guidance, and ensures consistent application. It comprises national supervisory authorities and the European Data Protection Supervisor, chaired by the Commission (Article 57). The Board collects best practices, contributes to uniform administrative practices, and issues opinions and recommendations (Article 58). At the national level, each Member State must establish or designate national competent authorities (Article 59(1)), including a national supervisory authority that acts as notifying authority and market surveillance authority (Article 59(2)). Notifying authorities designate and monitor conformity assessment bodies (Article 30). Market surveillance authorities monitor AI systems on the market (Article 63). The European Data Protection Supervisor handles administrative fines for EU institutions (Article 72). The Commission serves as the EU database controller (Article 60(5)).",
+      "source": "Articles 30, 56-60, 63, 72"
+    },
+    {
+      "id": "C07",
+      "category": "C",
+      "question": "Summarize all the requirements that high-risk AI systems must meet under Chapter 2 of Title III.",
+      "answer": "High-risk AI systems must comply with seven key requirements: (1) Risk management system — continuous, iterative process throughout the lifecycle covering risk identification, evaluation, and mitigation (Article 9); (2) Data and data governance — training, validation, and testing datasets must meet quality criteria including relevance, representativeness, freedom from errors, and completeness (Article 10); (3) Technical documentation — drawn up before market placement to demonstrate compliance (Article 11); (4) Record-keeping — automatic logging capabilities for traceability throughout the lifecycle (Article 12); (5) Transparency and provision of information to users — sufficient operational transparency and accompanied by instructions for use (Article 13); (6) Human oversight — designed for effective oversight by natural persons during use (Article 14); (7) Accuracy, robustness and cybersecurity — appropriate levels throughout their lifecycle (Article 15).",
+      "source": "Articles 8-15"
+    },
+    {
+      "id": "C08",
+      "category": "C",
+      "question": "Summarize the market surveillance and enforcement framework established by the AI Act.",
+      "answer": "The enforcement framework involves multiple mechanisms: Market surveillance authorities evaluate AI systems presenting risks and can require corrective actions, withdrawal, or recall (Article 65). If non-compliance persists, a Union safeguard procedure allows the Commission to evaluate national measures within 9 months (Article 66). Even compliant AI systems presenting risks can be required to be withdrawn (Article 67). Formal non-compliance (e.g., missing CE marking or declarations) triggers provider obligations to remedy (Article 68). Market surveillance authorities have full access to training/testing datasets via APIs and, upon reasoned request, to source code (Article 64). Providers must report serious incidents within 15 days (Article 62). Three tiers of administrative fines apply: up to €30M/6% for prohibited practices, €20M/4% for other violations, €10M/2% for misleading information (Article 71). The EDPS can impose fines up to €500,000 on EU institutions (Article 72).",
+      "source": "Articles 62, 64-68, 71-72"
+    },
+    {
+      "id": "C09",
+      "category": "C",
+      "question": "Summarize the stakeholder consultation process that informed the AI Act proposal and its main findings.",
+      "answer": "The Commission conducted extensive stakeholder consultations. The open public consultation on the AI White Paper (Feb-Jun 2020) received feedback from over 1,250 stakeholders and over 450 position papers. Of 352 business respondents, 41.5% were SMEs, and 84% came from the EU-27. Between 81 and 598 respondents used free text for different questions. There was general agreement on the need for action and that legislative gaps exist. Stakeholders warned against duplication and overregulation, and favored a technology-neutral and proportionate framework. Most explicitly favored the risk-based approach over blanket regulation. Stakeholders requested a narrow, clear, and precise AI definition. The AI Alliance provided a platform for approximately 4,000 stakeholders. An Inception Impact Assessment received over 130 comments. The Regulatory Scrutiny Board initially gave a negative opinion (Dec 2020) but issued a positive opinion after substantial revision (March 2021).",
+      "source": "Sections 3.1, 3.2, 3.3 of Explanatory Memorandum"
+    },
+    {
+      "id": "C10",
+      "category": "C",
+      "question": "Summarize how the AI Act handles the transition for existing AI systems already on the market.",
+      "answer": "The AI Act provides transitional provisions in Article 83. For AI systems that are components of large-scale IT systems under Annex IX, the Regulation does not apply to those placed on the market before 12 months after the application date, unless replacement or amendment leads to significant changes in design or intended purpose. However, the Regulation's requirements must be considered in evaluations of those large-scale IT systems as provided in the respective acts. For other high-risk AI systems already on the market, the Regulation applies only if those systems undergo significant changes in their design or intended purpose after the application date. The general application timeline (Article 85) provides 24 months from entry into force for most provisions, with early application of Title III Chapter 4 and Title VI at 3 months, and Article 71 (penalties) at 12 months.",
+      "source": "Articles 83, 85"
+    },
+    {
+      "id": "D01",
+      "category": "D",
+      "question": "If a provider of a high-risk biometric identification system has NOT applied harmonised standards, which conformity assessment procedure must they follow, and what body is involved?",
+      "answer": "According to Article 43(1), for high-risk AI systems listed in Annex III point 1 (which covers biometric identification), if the provider has not applied harmonised standards referred to in Article 40 (or applied them only in part), and common specifications under Article 41 are not available, the provider must follow the conformity assessment procedure set out in Annex VII. This procedure involves the assessment of the quality management system and assessment of the technical documentation with the involvement of a notified body (as described in Article 33), which must be independent of the provider and verify conformity.",
+      "source": "Articles 40, 41, 43(1), 33; Annex III point 1, Annex VII"
+    },
+    {
+      "id": "D02",
+      "category": "D",
+      "question": "What happens if a distributor modifies the intended purpose of a high-risk AI system already on the market? What obligations apply?",
+      "answer": "According to Article 28(1)(b), if a distributor modifies the intended purpose of a high-risk AI system already placed on the market, they shall be considered a provider for the purposes of this Regulation and become subject to all obligations of the provider under Article 16. This includes ensuring compliance with Chapter 2 requirements, having a quality management system (Article 17), drawing up technical documentation, undergoing conformity assessment (Article 19), drawing up an EU declaration of conformity (Article 48), affixing CE marking (Article 49), and registering in the EU database (Article 51). Per Article 28(2), the original provider is no longer considered the provider once this occurs.",
+      "source": "Articles 28(1)(b), 28(2), 16, 17, 19, 48, 49, 51"
+    },
+    {
+      "id": "D03",
+      "category": "D",
+      "question": "How does the penalty framework differ between violations committed by private companies versus EU institutions, and which body enforces each?",
+      "answer": "For private companies, Member States lay down penalty rules (Article 71(1)), with three tiers: up to €30M or 6% of worldwide annual turnover for prohibited practices (Article 5) and data requirements (Article 10) violations; up to €20M or 4% for other non-compliance; up to €10M or 2% for misleading information. For EU institutions, agencies and bodies, the European Data Protection Supervisor (not Member States) imposes fines (Article 72). The fines are significantly lower: up to €500,000 for violations of Article 5 and Article 10; up to €250,000 for other non-compliance. The EDPS considers similar factors (nature, gravity, duration, cooperation, previous infringements) but the maximum amounts are drastically reduced compared to the private sector framework.",
+      "source": "Articles 71, 72"
+    },
+    {
+      "id": "D04",
+      "category": "D",
+      "question": "When a high-risk AI system presents a risk and the market surveillance authority acts under Article 65, how does this trigger obligations across national borders through the Union safeguard procedure?",
+      "answer": "Under Article 65, when a market surveillance authority finds an AI system presents a risk, it evaluates compliance and can require corrective actions, withdrawal, or recall. The provider must take these actions across all Member States within a prescribed timeline (Article 65(4)). The authority notifies the Commission and other Member States (Article 65(5)). Under the Union safeguard procedure (Article 66), if within three months another Member State objects or the Commission considers the measure contrary to Union law, the Commission evaluates the national measure and decides within 9 months whether it is justified. If justified, all Member States must withdraw the non-compliant AI system from their markets (Article 66(2)). If the non-compliance is attributed to shortcomings in harmonised standards, the Commission may initiate the procedure under Article 11 of Regulation (EU) 1025/2012 (Article 66(3)).",
+      "source": "Articles 65, 66"
+    },
+    {
+      "id": "D05",
+      "category": "D",
+      "question": "How do the transparency obligations under Article 52 relate to and differ from the transparency requirements for high-risk AI systems under Article 13?",
+      "answer": "Article 13 applies specifically to high-risk AI systems (Title III) and requires operational transparency enabling users to interpret outputs appropriately, plus detailed instructions for use including: provider identity, performance characteristics/limitations, intended purpose, accuracy/robustness/cybersecurity metrics, human oversight measures, expected lifetime, and maintenance instructions. Article 52 applies to certain AI systems regardless of risk level (Title IV) and addresses three specific scenarios: (1) AI systems interacting with natural persons must inform people they are interacting with AI; (2) emotion recognition/biometric categorisation systems must inform exposed persons; (3) deepfake content must be disclosed as artificially generated. Both have exceptions for law enforcement. Article 13 is about enabling informed use by professional users, while Article 52 protects general public awareness of AI interaction.",
+      "source": "Articles 13, 52"
+    },
+    {
+      "id": "D06",
+      "category": "D",
+      "question": "How does the Regulation connect the quality management system requirements (Article 17) with the conformity assessment procedures (Article 43) and the role of notified bodies (Article 33)?",
+      "answer": "Article 17 requires providers to put a quality management system (QMS) in place covering regulatory compliance strategy, design procedures, development quality control, testing procedures, technical specifications, data management, post-market monitoring, incident reporting, communication handling, record keeping, and resource management. The conformity assessment under Article 43 has two routes: Annex VI (internal control, where the provider self-assesses including QMS compliance) and Annex VII (involving a notified body). Under Annex VII, the notified body (which must satisfy organizational and independence requirements per Article 33) assesses both the QMS and the technical documentation. The notified body verifies that the QMS ensures compliance (linking back to Article 17's requirements). For credit institutions under Directive 2013/36/EU, the QMS obligation is deemed fulfilled by complying with internal governance rules under Article 74 of that Directive (Article 17(3)).",
+      "source": "Articles 17, 33, 43; Annexes VI, VII"
+    },
+    {
+      "id": "D07",
+      "category": "D",
+      "question": "If a small-scale provider wants to develop an innovative high-risk AI system, what combination of support measures and obligations apply under the Regulation?",
+      "answer": "A small-scale provider (micro or small enterprise per Recommendation 2003/361/EC, Article 3(3)) benefits from several support measures: priority access to AI regulatory sandboxes (Article 55(1)(a)), which provide a controlled environment for development, testing, and validation under authority supervision (Article 53(1)). Within sandboxes, they can process personal data for public interest AI under specific conditions (Article 54). They receive specific awareness-raising activities (Article 55(1)(b)), dedicated communication channels for guidance (Article 55(1)(c)), and reduced conformity assessment fees proportionate to their size (Article 55(2)). Penalties consider their economic viability (Article 71(1)). However, they still must comply with all high-risk AI system obligations: risk management (Article 9), data governance (Article 10), documentation (Article 11), logging (Article 12), transparency (Article 13), human oversight (Article 14), accuracy/robustness (Article 15), and conformity assessment (Article 19).",
+      "source": "Articles 3(3), 9-15, 19, 53-55, 71"
+    },
+    {
+      "id": "D08",
+      "category": "D",
+      "question": "How does the post-market monitoring system (Article 61) feed into the risk management system (Article 9) and serious incident reporting (Article 62)?",
+      "answer": "These three mechanisms form an interconnected loop. The post-market monitoring system (Article 61) actively and systematically collects, documents, and analyses data on high-risk AI system performance throughout their lifetime. This data directly feeds into the risk management system: Article 9(2)(c) specifically requires evaluation of risks based on analysis of data gathered from the post-market monitoring system. The risk management system then uses this data to identify new risks and adopt updated risk management measures (Article 9(2)(d)). Simultaneously, the post-market monitoring system's logging capabilities (Article 12(3)) enable monitoring for situations that may present a risk within the meaning of Article 65(1), which triggers the serious incident reporting obligation under Article 62 — providers must report to market surveillance authorities not later than 15 days after becoming aware. This creates a continuous feedback cycle: monitoring feeds risk assessment, which informs mitigation, while also triggering regulatory reporting when incidents occur.",
+      "source": "Articles 9(2)(c)(d), 12(3), 61, 62, 65(1)"
+    },
+    {
+      "id": "D09",
+      "category": "D",
+      "question": "What is the relationship between the EU database (Article 60), the registration obligation (Article 51), and the information accessible to the public?",
+      "answer": "Article 51 creates a mandatory registration obligation: before placing on the market or putting into service any high-risk AI system referred to in Article 6(2) (i.e., stand-alone high-risk systems listed in Annex III), the provider or authorised representative must register that system in the EU database. The EU database is set up and maintained by the Commission in collaboration with Member States (Article 60(1)). The data listed in Annex VIII must be entered by providers, with the Commission providing technical and administrative support (Article 60(2)). Crucially, the information contained in the database is accessible to the public (Article 60(3)), creating transparency about which high-risk AI systems are in the market. The database contains personal data only insofar as necessary, limited to names and contact details of persons responsible for registration who have legal authority to represent the provider (Article 60(4)). The Commission acts as controller of this database (Article 60(5)).",
+      "source": "Articles 6(2), 51, 60(1)-(5); Annex VIII"
+    },
+    {
+      "id": "D10",
+      "category": "D",
+      "question": "How does the derogation timeline in Article 85(3) interact with the general application date, and what specific provisions become applicable earlier and why?",
+      "answer": "The general application date is 24 months after the Regulation enters into force (Article 85(2)). However, Article 85(3) creates two early application derogations: (a) Title III, Chapter 4 (Notifying Authorities and Notified Bodies) and Title VI (Governance — the European Artificial Intelligence Board and national competent authorities) apply from just 3 months after entry into force. This early application ensures the institutional infrastructure — including the Board's establishment (Article 56), national authority designations (Article 59), and notified body procedures (Articles 30-39) — is operational well before the substantive requirements take effect, allowing these bodies to prepare for their oversight roles. (b) Article 71 (Penalties) applies from 12 months after entry into force, giving Member States time to establish penalty rules before the full Regulation applies, but ensuring enforcement mechanisms are ready at the general application date. This staggered approach builds governance capacity first, then enforcement readiness, and finally full compliance obligations.",
+      "source": "Article 85(1)-(3); Title III Chapter 4 (Articles 30-39); Title VI (Articles 56-59); Article 71"
+    }
+  ]
+}

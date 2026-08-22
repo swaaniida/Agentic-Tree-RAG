@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "document": "Top Generative AI Use Cases You Should Know About in 2025",
+    "author": "Alannaelga (GamingArena)",
+    "total_questions": 40,
+    "pages": 31,
+    "sections": 9,
+    "categories": {
+      "A": "Selection — 단일 span/사실 추출, aggregation 없음",
+      "B": "Enumeration / Counting — 전체에서 항목 수집·개수 계산, coverage 필수",
+      "C": "Aggregation / Summarization — 여러 구간 의미 통합, Reduce reasoning 핵심",
+      "D": "Relational / Multi-hop — 서로 다른 위치 정보 연결, 계층적 reasoning 필요"
+    }
+  },
+  "questions": [
+    {
+      "id": "A01",
+      "category": "A",
+      "question": "According to the article, what AI tool is specifically mentioned for predicting chemical properties and interactions with target proteins in drug discovery?",
+      "answer": "DeepMind's AlphaFold and Insilico Medicine are mentioned as tools that use AI to accelerate drug discovery by generating molecular structures with desired properties.",
+      "source": "Section 3 Healthcare — Drug Discovery and Development (p5)"
+    },
+    {
+      "id": "A02",
+      "category": "A",
+      "question": "What AI application is mentioned as providing mental health support through AI-driven interactions?",
+      "answer": "Woebot is mentioned as an AI application that offers mental health support through AI-driven interactions, providing therapeutic conversations, monitoring mood, and offering cognitive behavioral therapy (CBT) techniques.",
+      "source": "Section 3 Healthcare — Virtual Health Assistants — Mental Health Support (p7)"
+    },
+    {
+      "id": "A03",
+      "category": "A",
+      "question": "What specific legal AI tool is mentioned for automatically drafting contracts by learning from large sets of legal documents?",
+      "answer": "LawGeex is mentioned as a tool that uses AI to draft contracts by learning from large sets of legal documents and identifying common clauses and structures.",
+      "source": "Section 9 Legal and Compliance — Document Automation and Contract Generation (p26)"
+    },
+    {
+      "id": "A04",
+      "category": "A",
+      "question": "Which two video games are cited as examples of games using procedural generation to create expansive, ever-changing environments?",
+      "answer": "Minecraft and No Man's Sky are cited as prime examples of games that use procedural generation to create expansive, ever-changing environments.",
+      "source": "Section 7 Gaming — Procedural Content Generation — Dynamic World Creation (p18)"
+    },
+    {
+      "id": "A05",
+      "category": "A",
+      "question": "What legal AI chatbot is mentioned for assisting clients with basic legal questions and routine legal processes?",
+      "answer": "DoNotPay is mentioned as a legal chatbot powered by generative AI that can assist clients with basic legal questions, document generation, and routine legal processes.",
+      "source": "Section 9 Legal and Compliance — Legal Chatbots and Virtual Assistants (p29)"
+    },
+    {
+      "id": "A06",
+      "category": "A",
+      "question": "What type of AI network is mentioned for improving medical image quality by removing noise and enhancing resolution?",
+      "answer": "GANs (Generative Adversarial Networks) are mentioned for improving the quality of medical images by removing noise, enhancing resolution, and generating 3D reconstructions of anatomical structures.",
+      "source": "Section 3 Healthcare — Medical Imaging — Image Generation and Enhancement (p6)"
+    },
+    {
+      "id": "A07",
+      "category": "A",
+      "question": "Which AI grading platform is specifically named for assessing written responses, multiple-choice questions, and code?",
+      "answer": "Gradescope is mentioned as the platform that uses AI to assess written responses, multiple-choice questions, and even code.",
+      "source": "Section 8 Education and Training — Automated Grading and Assessment (p23)"
+    },
+    {
+      "id": "A08",
+      "category": "A",
+      "question": "What game is cited as an example of using procedural level design to keep gameplay fresh with every new run?",
+      "answer": "Spelunky is cited as a game that uses procedural level design to keep gameplay fresh with every new run.",
+      "source": "Section 7 Gaming — Procedural Content Generation — Level Design (p18)"
+    },
+    {
+      "id": "A09",
+      "category": "A",
+      "question": "What specific AI-powered design software is mentioned for helping industrial designers create optimized product designs?",
+      "answer": "Autodesk's generative design software is mentioned for helping industrial designers create optimized designs for parts and products by inputting constraints like weight, material type, and production methods.",
+      "source": "Section 6 Design and Creativity — Product and Industrial Design — Generative Product Design (p17)"
+    },
+    {
+      "id": "A10",
+      "category": "A",
+      "question": "What two specific regulations are named as examples that financial institutions must comply with, for which AI can automate compliance checks?",
+      "answer": "Anti-money laundering (AML) and know your customer (KYC) laws are named as regulations for which AI can automate compliance checks in financial institutions.",
+      "source": "Section 5 Finance — Regulatory Compliance and Reporting — Automated Compliance Checks (p13)"
+    },
+    {
+      "id": "B01",
+      "category": "B",
+      "question": "List all nine main industry sections covered in the article.",
+      "answer": "The nine sections are: 1. Content Creation, 2. Customer Service and Chatbots, 3. Healthcare, 4. Marketing and Advertising, 5. Finance and Business Intelligence, 6. Design and Creativity, 7. Gaming, 8. Education and Training, 9. Legal and Compliance.",
+      "source": "Section headings across the full article (p1-30)"
+    },
+    {
+      "id": "B02",
+      "category": "B",
+      "question": "List all AI writing tools specifically named in the Content Creation section for generating blog posts and articles.",
+      "answer": "Three tools are named: GPT, Jasper, and Writesonic.",
+      "source": "Section 1 Content Creation — AI for Writing — Blog Posts & Articles (p2)"
+    },
+    {
+      "id": "B03",
+      "category": "B",
+      "question": "How many subsections does the Healthcare section contain, and what are they?",
+      "answer": "The Healthcare section contains 6 subsections: Drug Discovery and Development, Medical Imaging, Predictive Healthcare, Virtual Health Assistants, Clinical Decision Support, and Administrative and Operational Efficiency.",
+      "source": "Section 3 Healthcare (p5-8)"
+    },
+    {
+      "id": "B04",
+      "category": "B",
+      "question": "List all AI image generation platforms specifically named in the article across all sections.",
+      "answer": "The AI image generation platforms named are: DALL·E, MidJourney, Canva's AI tools, and Artbreeder. These appear in the Content Creation section (DALL·E, MidJourney, Canva) and the Design and Creativity section (DALL·E, MidJourney, Artbreeder).",
+      "source": "Section 1 Content Creation — AI-Generated Art (p2) + Section 6 Design and Creativity — Graphic Design (p15) + Section 7 Gaming (p19)"
+    },
+    {
+      "id": "B05",
+      "category": "B",
+      "question": "List all the specific AI music composition tools named in the article.",
+      "answer": "The AI music tools named are: OpenAI's MuseNet, Amper Music, Jukedeck, and Aiva. MuseNet and Amper Music appear in the Content Creation section, while Jukedeck, Aiva, and Amper Music appear in the Design and Creativity section.",
+      "source": "Section 1 Content Creation — Music Composition (p3) + Section 6 Design and Creativity — Music and Audio Production (p16)"
+    },
+    {
+      "id": "B06",
+      "category": "B",
+      "question": "How many FAQs are listed at the end of the article, and what topics do they cover?",
+      "answer": "There are 5 FAQs covering: 1) What is generative AI, 2) How does generative AI help businesses, 3) What industries benefit the most, 4) Can generative AI replace human creativity, 5) What are the risks of using generative AI.",
+      "source": "FAQs section (p30-31)"
+    },
+    {
+      "id": "B07",
+      "category": "B",
+      "question": "List all the voice-related AI tools mentioned in the article (voice synthesis, voiceover, voice cloning).",
+      "answer": "Voice-related AI tools mentioned are: Descript (and Descript's Overdub), Resemble AI, and Replica Studios. Descript and Resemble AI appear in Marketing (voiceover generation), while Descript's Overdub and Replica Studios appear in Design and Creativity (sound design).",
+      "source": "Section 4 Marketing — Voice and Video Marketing (p10) + Section 6 Design and Creativity — Music and Audio Production (p16)"
+    },
+    {
+      "id": "B08",
+      "category": "B",
+      "question": "List all the subsections within the Legal and Compliance section.",
+      "answer": "There are 6 subsections: Document Automation and Contract Generation, Legal Research and Case Analysis, Compliance Monitoring and Reporting, Due Diligence and Mergers & Acquisitions (M&A), Litigation Support and Case Strategy, Intellectual Property (IP) Protection, Corporate Governance and Ethics, and Legal Chatbots and Virtual Assistants. That is 8 subsections total.",
+      "source": "Section 9 Legal and Compliance (p26-30)"
+    },
+    {
+      "id": "B09",
+      "category": "B",
+      "question": "Which specific video games are named in the Gaming section as examples of branching narratives?",
+      "answer": "The Witcher 3 and Detroit: Become Human are named as examples of games known for branching narratives that change depending on player choices.",
+      "source": "Section 7 Gaming — AI-Generated Game Narratives — Adaptive Storylines (p19)"
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "question": "List all the adaptive learning and tutoring platforms named in the Education and Training section.",
+      "answer": "The platforms named are: Squirrel AI, DreamBox Learning, Khan Academy, Duolingo, Rosetta Stone, and Babbel.",
+      "source": "Section 8 Education and Training — Personalized Learning (p22) + Language Learning (p23)"
+    },
+    {
+      "id": "C01",
+      "category": "C",
+      "question": "Summarize how the article describes AI's role in personalizing customer experiences across multiple industries (customer service, marketing, finance, gaming, education).",
+      "answer": "The article describes AI personalization across five industries. In customer service, AI uses purchase history and past interactions to generate tailored responses and proactive support. In marketing, AI enables customer segmentation, predictive recommendations (e.g., Amazon, Netflix), and personalized email campaigns. In finance, AI creates personalized banking services and virtual financial advisors offering tailored investment and budgeting advice. In gaming, Dynamic Difficulty Adjustment (DDA) adjusts challenge in real time, and AI recommends in-game content based on playstyle. In education, adaptive learning systems like Squirrel AI adjust content difficulty to each student's pace, while intelligent tutoring systems provide one-on-one assistance. The common thread is analyzing user data to deliver individualized experiences at scale.",
+      "source": "Sections 2 (p3-4), 4 (p8-9), 5 (p12-13), 7 (p20), 8 (p22)"
+    },
+    {
+      "id": "C02",
+      "category": "C",
+      "question": "Summarize all the ways the article describes AI being used to generate or edit video content across different industry sections.",
+      "answer": "Video generation appears across multiple sections. In Content Creation, tools like Pictory and Synthesia create videos from scripts with stock footage, animations, and AI avatars; AI editors like Magisto and Adobe Sensei automate cutting, transitions, and captioning; deepfake technology generates realistic face/voice mimicry. In Marketing, Synthesia and Pictory generate promotional and explainer videos from text; Descript and Resemble AI create voiceovers. In Design and Creativity, Synthesia and Runway produce animated ads and marketing videos with realistic avatars and backgrounds. In Gaming, AI automates character animation from motion capture data. The common pattern is replacing manual production teams with AI-driven text-to-video pipelines.",
+      "source": "Section 1 (p2-3), Section 4 (p10), Section 6 (p17), Section 7 (p20)"
+    },
+    {
+      "id": "C03",
+      "category": "C",
+      "question": "Summarize the article's treatment of predictive analytics across healthcare, finance, and marketing.",
+      "answer": "In healthcare, AI predicts future health risks (heart disease, diabetes, strokes) by analyzing patient data, genetics, and lifestyle; it also predicts treatment responses for personalized medicine, especially in oncology. In finance, AI predicts stock prices, market trends, and economic indicators; it assesses credit risk and loan defaults using broader data than traditional models; and it forecasts revenue by analyzing historical data. In marketing, AI predicts future customer needs and generates product recommendations (Amazon, Netflix); it predicts best times and audiences for ad delivery; and maps customer journeys to optimize conversion funnels. Across all three, the pattern is analyzing historical/behavioral data to forecast future outcomes and enable proactive decision-making.",
+      "source": "Section 3 Healthcare (p6-7), Section 5 Finance (p11-14), Section 4 Marketing (p8-10)"
+    },
+    {
+      "id": "C04",
+      "category": "C",
+      "question": "Summarize all the ways the article describes AI automating administrative or operational tasks across industries.",
+      "answer": "In healthcare, AI automates scheduling, billing, documentation, transcribing doctor-patient interactions, processing insurance claims, and optimizing hospital resource allocation (bed availability, staffing, operating rooms). In finance, AI automates financial reporting, generating balance sheets and cash flow statements, and automates regulatory compliance checks for AML and KYC. In legal, AI automates contract drafting, document review, due diligence in M&A, patent/trademark filing, scheduling meetings, managing files, and tracking deadlines. In customer service, chatbots automate password resets, FAQs, and order tracking, reducing need for large support teams. In education, AI automates grading (Gradescope), content creation, and assessment generation. The consistent theme is freeing professionals to focus on higher-value work.",
+      "source": "Sections 3 (p7-8), 5 (p12-13), 9 (p26-30), 2 (p4), 8 (p23)"
+    },
+    {
+      "id": "C05",
+      "category": "C",
+      "question": "Summarize the ethical concerns and risks of generative AI as described throughout the article.",
+      "answer": "The article discusses risks in several places. The Conclusion warns about bias in AI-generated content, security concerns, and the responsibility of ensuring ethical use. FAQ #5 lists potential risks as data bias, ethical concerns, security issues, and generating misleading or inappropriate content. FAQ #4 notes that human oversight is still essential for authenticity, accuracy, and nuanced decision-making. Deepfake technology in Content Creation is described as controversial. The article emphasizes finding the right balance between automation and human creativity. In Legal, AI is used for ethics and compliance audits and whistleblower reporting, acknowledging the need for governance frameworks.",
+      "source": "Conclusion (p30), FAQs (p30-31), Section 1 (p3), Section 9 (p29)"
+    },
+    {
+      "id": "C06",
+      "category": "C",
+      "question": "Summarize how AI is described as enhancing creative processes across content creation, design, and gaming.",
+      "answer": "In Content Creation, AI generates blog posts (GPT, Jasper, Writesonic), visual art (DALL·E, MidJourney), videos (Pictory, Synthesia), and music (MuseNet, Amper Music). In Design and Creativity, AI creates logos (Looka, Tailor Brands), enhances images (Photoshop's AI tools), generates fashion designs and virtual garments, creates 3D models and prototypes (Autodesk), and produces AR/VR content. In Gaming, procedural content generation creates dynamic worlds (Minecraft, No Man's Sky), AI generates branching narratives (Witcher 3, Detroit: Become Human), designs characters using Artbreeder and GANs, and automates animation from motion capture. The article positions AI as augmenting rather than replacing human creativity — providing starting points, automating repetitive tasks, and enabling rapid iteration.",
+      "source": "Section 1 (p2-3), Section 6 (p14-18), Section 7 (p18-21)"
+    },
+    {
+      "id": "C07",
+      "category": "C",
+      "question": "Summarize how the article describes AI chatbots and virtual assistants across all industry sectors.",
+      "answer": "Chatbots and virtual assistants appear in five sectors. In Customer Service, they handle queries 24/7, provide multilingual support, offer instant responses, and scale to handle peak periods. In Healthcare, virtual assistants offer medication management, lifestyle recommendations, telemedicine support, and mental health interactions (Woebot). In Finance, virtual financial advisors provide personalized investment and budgeting advice; AI handles banking queries. In Education, intelligent tutoring systems (Khan Academy, Duolingo) provide one-on-one assistance; conversational agents offer language practice. In Legal, chatbots like DoNotPay handle basic legal questions, document generation, and guide clients through legal processes. Common features across all: 24/7 availability, personalization based on user data, and escalation to human experts when needed.",
+      "source": "Sections 2 (p3-5), 3 (p6-7), 5 (p12-13), 8 (p22-24), 9 (p29-30)"
+    },
+    {
+      "id": "C08",
+      "category": "C",
+      "question": "Summarize how AI is used for simulation and scenario-based applications across different industries described in the article.",
+      "answer": "In Finance, AI generates scenario simulations based on economic factors (interest rates, demand changes, global events) for business forecasting. In Healthcare, AI models predict treatment responses, enabling personalized medicine. In Design, virtual prototyping creates product simulations before physical production; AR/VR generates immersive environments. In Education, AI creates virtual labs, practice scenarios, and role-playing exercises for medical/engineering training; VR classrooms simulate hands-on learning; emergency response training generates dynamic disaster scenarios. In Gaming, procedural generation creates dynamic worlds; AI generates adaptive storylines and quest scenarios. In Legal, AI models M&A transaction scenarios predicting legal and financial impacts. In Corporate Training, AI generates business simulations for financial modeling and crisis management.",
+      "source": "Sections 5 (p14), 3 (p6), 6 (p17-18), 8 (p23-24), 7 (p18-19), 9 (p28), 8 (p25)"
+    },
+    {
+      "id": "C09",
+      "category": "C",
+      "question": "Summarize how the article describes AI's role in fraud detection, risk management, and compliance across finance and legal sectors.",
+      "answer": "In Finance, AI detects fraudulent transactions in real-time by identifying anomalies in spending patterns and account access. Predictive risk assessment forecasts economic downturns, investment risks, and credit defaults from historical data. AI generates comprehensive credit scoring profiles beyond traditional limited criteria. AI tools continuously monitor transactions for regulatory compliance. For audit, AI detects irregularities and potential fraud. In Legal, AI automates monitoring of GDPR, HIPAA, and industry regulations, generating compliance reports. Real-time regulatory monitoring tracks changes in laws and standards. AI-driven risk management analyzes patterns to identify non-compliance areas. In M&A, due diligence AI flags undisclosed liabilities and non-compliant practices. Corporate governance AI conducts ethics audits and powers whistleblower reporting systems.",
+      "source": "Section 5 Finance (p11, p13) + Section 9 Legal (p27, p29)"
+    },
+    {
+      "id": "C10",
+      "category": "C",
+      "question": "Summarize the article's description of how AI enables SEO optimization and data-driven content strategies in marketing.",
+      "answer": "The article describes several AI applications for SEO and content strategy. AI-driven platforms like GPT-3 and Jasper generate long-form blog posts and SEO-optimized content tailored to specific topics or keywords, keeping websites updated with fresh material to increase organic traffic. AI analyzes search trends, keywords, and competitor content to generate SEO-optimized articles, landing pages, and blog posts. AI tools identify high-performing keywords, optimize meta descriptions, and suggest structural changes to boost organic search rankings. For social media, AI generates posts, captions, and hashtags aligned with current trends and optimized for each platform (Twitter, Instagram, LinkedIn). Voice search optimization creates content answering common voice queries with long-tail keywords for Alexa, Siri, and Google Assistant. A/B testing automation rapidly identifies which content resonates best.",
+      "source": "Section 4 Marketing — Data-Driven Content Creation + SEO Optimization + Voice Search (p9-10)"
+    },
+    {
+      "id": "D01",
+      "category": "D",
+      "question": "The article mentions Synthesia in multiple sections. In which sections does it appear, and what different purposes does it serve in each?",
+      "answer": "Synthesia appears in three sections. In Content Creation (Section 1), it is mentioned for automated video creation — generating videos from scripts using stock footage, animations, and AI avatars. In Marketing and Advertising (Section 4), it is listed for AI-generated video content, allowing marketers to create promotional and explainer videos from text. In Design and Creativity (Section 6), it appears under advertising and marketing design for producing animated ads, explainer videos, and promotional content. The common role is text-to-video generation, but the application context shifts from general content production to marketing campaigns to design workflows.",
+      "source": "Section 1 (p2), Section 4 (p10), Section 6 (p17)"
+    },
+    {
+      "id": "D02",
+      "category": "D",
+      "question": "How does the article's description of AI in customer service (Section 2) relate to AI in healthcare's virtual health assistants (Section 3)? What capabilities do they share and where do they differ?",
+      "answer": "Shared capabilities: Both use AI chatbots and virtual assistants for 24/7 availability, personalized responses based on user data, and multilingual support. Both can escalate to human professionals when needed. Differences: Customer service chatbots focus on order tracking, account management, FAQ resolution, and sentiment analysis for emotional tone detection. Healthcare virtual assistants focus on medication management, lifestyle recommendations, telemedicine support (collecting patient history, assessing symptoms), and mental health therapy (Woebot provides CBT techniques). Customer service emphasizes cost savings and scalable support, while healthcare emphasizes clinical integration and patient outcomes. Healthcare has the added dimension of telemedicine integration for remote consultations.",
+      "source": "Section 2 (p3-5) + Section 3 (p6-7)"
+    },
+    {
+      "id": "D03",
+      "category": "D",
+      "question": "The article discusses AI-powered document generation in both the Finance and Legal sections. How do the use cases differ between these two sectors?",
+      "answer": "In Finance (Section 5), document automation focuses on financial reporting: generating balance sheets, income statements, cash flow statements, and regulatory reports (tax reports, financial statements). AI uses Natural Language Generation (NLG) to create human-readable financial summaries for executives. The emphasis is on data accuracy, real-time insights, and regulatory compliance (AML, KYC). In Legal (Section 9), document automation focuses on contract drafting (LawGeex), document review and customization for client needs, standardization of legal language, patent and trademark filings, and M&A due diligence document review. The emphasis is on clause identification, risk flagging, legal consistency, and reducing human error in legal language. Finance is data-to-report; Legal is template-to-contract.",
+      "source": "Section 5 Finance (p12-13) + Section 9 Legal (p26-28)"
+    },
+    {
+      "id": "D04",
+      "category": "D",
+      "question": "GANs (Generative Adversarial Networks) are mentioned in multiple contexts in the article. What are the different applications described for GANs?",
+      "answer": "GANs are mentioned in two distinct contexts. In Healthcare (Section 3), GANs are used for medical image generation and enhancement — removing noise, enhancing resolution, and generating 3D reconstructions of anatomical structures to help radiologists. In Gaming (Section 7), GANs are used alongside Artbreeder for character design — creating highly detailed and creative character concepts, avatars, and enemy designs. So GANs serve medical diagnostics in one context and creative game development in another, but in both cases the core function is generating high-quality visual content from learned data patterns.",
+      "source": "Section 3 Healthcare — Medical Imaging (p6) + Section 7 Gaming — Character Design (p19)"
+    },
+    {
+      "id": "D05",
+      "category": "D",
+      "question": "Compare how the article describes AI for predictive analytics in healthcare versus finance. What data inputs and outputs differ?",
+      "answer": "In Healthcare, the inputs are patient data, lifestyle factors, genetic information, and medical records. The outputs are predictions of future health risks (heart disease, diabetes, strokes), personalized treatment plans based on genetic profiles, treatment response predictions, and population health management insights. In Finance, the inputs are historical market data, transaction patterns, news, social media sentiment, economic indicators, and customer behavior data. The outputs are stock price predictions, credit risk scores, revenue forecasts, investment strategy recommendations, and fraud detection alerts. Healthcare predicts biological outcomes for individuals; Finance predicts economic outcomes for markets and institutions. Both share the pattern of analyzing historical data to forecast future events.",
+      "source": "Section 3 Healthcare — Predictive Healthcare (p6) + Section 5 Finance (p11-14)"
+    },
+    {
+      "id": "D06",
+      "category": "D",
+      "question": "The article discusses AI for both game testing (Section 7) and educational assessment (Section 8). How do these testing/assessment applications compare?",
+      "answer": "In Gaming, automated playtesting simulates human players to uncover bugs, test game balance, and identify gameplay bottlenecks. Behavioral analysis monitors player frustration and suggests improvements. Bug detection analyzes game code to find errors. In Education, AI grading systems (Gradescope) assess written responses, multiple-choice, and code. Generative assessment creates adaptive questions matched to student progress. AI-powered peer reviews provide constructive feedback. The parallel: both analyze user behavior/responses to identify problems and optimize the experience. The difference: gaming testing focuses on finding technical bugs and balancing difficulty; educational assessment focuses on measuring learning and providing personalized feedback. Gaming evaluates the product; education evaluates the learner.",
+      "source": "Section 7 Gaming — AI-Driven Game Testing (p20) + Section 8 Education — Automated Grading (p23)"
+    },
+    {
+      "id": "D07",
+      "category": "D",
+      "question": "How does the article's treatment of AI-generated content in marketing (Section 4) relate to its discussion of AI in content creation (Section 1)? Are there overlapping tools?",
+      "answer": "There is significant overlap. Overlapping tools: Jasper and Writesonic appear in both Content Creation (blog posts, articles) and Marketing (ad copy generation). Synthesia and Pictory appear in Content Creation (video generation) and Marketing (video marketing). DALL·E appears in Content Creation (visual art) and is implied in Marketing (creative asset generation). The key difference: Content Creation (Section 1) focuses on producing raw creative output — text, art, video, music. Marketing (Section 4) focuses on strategic deployment — customer segmentation, campaign optimization, A/B testing, ROI measurement, customer journey mapping, and influencer marketing. Section 1 is about making content; Section 4 is about using content strategically to drive business outcomes.",
+      "source": "Section 1 Content Creation (p2-3) + Section 4 Marketing (p8-11)"
+    },
+    {
+      "id": "D08",
+      "category": "D",
+      "question": "The article describes VR/AR applications in both the Design section (Section 6) and the Education section (Section 8). How do these applications differ?",
+      "answer": "In Design (Section 6), AR/VR is used for creating immersive commercial experiences: realistic virtual environments and objects, personalized AR shopping (trying on clothes virtually, exploring 3D products), and AI-powered animation for interactive AR/VR content. The focus is on consumer experience and product visualization. In Education (Section 8), VR/AR is used for training simulations: virtual classrooms and labs for healthcare/engineering/aviation training, scenario-based emergency response training with dynamic real-time situations, and AI-generated virtual instructors providing real-time guidance and feedback. The focus is on skills development in safe environments. Design serves commerce; Education serves learning. Both share the technical foundation of AI generating realistic virtual content.",
+      "source": "Section 6 Design — AR/VR Design (p17-18) + Section 8 Education — Simulation and VR Training (p24)"
+    },
+    {
+      "id": "D09",
+      "category": "D",
+      "question": "Sentiment analysis is mentioned in both the Customer Service section and the Finance section. How does the purpose and application differ?",
+      "answer": "In Customer Service (Section 2), sentiment analysis detects the emotional tone of customer interactions (frustrated, happy, neutral) so the AI can adjust its responses — providing more empathetic or urgent handling when a customer is upset. The purpose is improving individual customer experience in real time. In Finance (Section 5), sentiment analysis examines news articles, social media posts, and financial reports to gauge investor sentiment about specific stocks, sectors, or the overall market. The purpose is informing trading decisions and market predictions. Customer service sentiment is about emotional support for individuals; financial sentiment is about market intelligence for investors. One is reactive (adjusting behavior); the other is predictive (forecasting trends).",
+      "source": "Section 2 Customer Service — Sentiment Analysis (p4) + Section 5 Finance — Sentiment Analysis for Financial Markets (p14)"
+    },
+    {
+      "id": "D10",
+      "category": "D",
+      "question": "Compare how the article describes personalization in three sectors: marketing recommendations, financial product recommendations, and educational content recommendations. What pattern do they share?",
+      "answer": "In Marketing, AI analyzes user behavior to predict future needs and suggest products (Amazon, Netflix), generates personalized email campaigns, and creates customer-specific ad content based on browsing history and preferences. In Finance, AI analyzes customer preferences, behaviors, and financial histories to offer tailored loans, insurance, and credit cards; it predicts when customers need mortgages or insurance to proactively offer services. In Education, adaptive systems (Squirrel AI, DreamBox) adjust content difficulty to each student's pace; AI generates personalized feedback reports and matches students with relevant peers and mentors. The shared pattern: all three analyze user history and behavior → segment/profile the user → generate tailored content or recommendations → optimize for engagement/outcomes. The difference is the output: products in marketing, financial instruments in finance, and learning paths in education.",
+      "source": "Section 4 Marketing (p8-9) + Section 5 Finance (p12-13) + Section 8 Education (p22, p24-25)"
+    }
+  ]
+}

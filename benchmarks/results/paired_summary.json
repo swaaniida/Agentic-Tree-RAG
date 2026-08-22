@@ -1,0 +1,103 @@
+{
+  "paired_n": 107,
+  "datasets": {
+    "ai_act_qa.json": 40,
+    "gen_ai_usecases_qa.json": 40,
+    "national_parks_qa.json": 27
+  },
+  "categories": {
+    "A": 30,
+    "B": 30,
+    "C": 27,
+    "D": 20
+  },
+  "runs": {
+    "baseline": {
+      "n": 107,
+      "metrics": {
+        "f1_score": {
+          "mean": 0.30577476635514017,
+          "valid_n": 107
+        },
+        "precision": {
+          "mean": 0.22178878504672897,
+          "valid_n": 107
+        },
+        "recall": {
+          "mean": 0.6085813084112149,
+          "valid_n": 107
+        },
+        "latency": {
+          "mean": 77.37048076923077,
+          "valid_n": 104
+        },
+        "llm_score": {
+          "mean": null,
+          "valid_n": 0
+        },
+        "evidence_accuracy": {
+          "mean": 0.5673076923076923,
+          "valid_n": 104
+        }
+      }
+    },
+    "optimized_v1": {
+      "n": 107,
+      "metrics": {
+        "f1_score": {
+          "mean": 0.3711906542056075,
+          "valid_n": 107
+        },
+        "precision": {
+          "mean": 0.3536411214953271,
+          "valid_n": 107
+        },
+        "recall": {
+          "mean": 0.5135532710280374,
+          "valid_n": 107
+        },
+        "latency": {
+          "mean": 33.88644859813084,
+          "valid_n": 107
+        },
+        "llm_score": {
+          "mean": 3.4205607476635516,
+          "valid_n": 107
+        },
+        "evidence_accuracy": {
+          "mean": 0.5794392523364486,
+          "valid_n": 107
+        }
+      }
+    },
+    "optimized_v2": {
+      "n": 107,
+      "metrics": {
+        "f1_score": {
+          "mean": 0.35074205607476633,
+          "valid_n": 107
+        },
+        "precision": {
+          "mean": 0.4400177570093458,
+          "valid_n": 107
+        },
+        "recall": {
+          "mean": 0.40917289719626165,
+          "valid_n": 107
+        },
+        "latency": {
+          "mean": 43.96257142857143,
+          "valid_n": 105
+        },
+        "llm_score": {
+          "mean": 3.149532710280374,
+          "valid_n": 107
+        },
+        "evidence_accuracy": {
+          "mean": 0.5619047619047619,
+          "valid_n": 105
+        }
+      }
+    }
+  }
+}

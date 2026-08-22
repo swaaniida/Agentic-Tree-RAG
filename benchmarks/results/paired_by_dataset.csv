@@ -1,0 +1,10 @@
+dataset,run,paired_n,f1,evidence_accuracy,latency_seconds
+ai_act_qa.json,baseline,40,0.34043,0.7435897435897436,123.47897435897436
+ai_act_qa.json,optimized_v1,40,0.3827425,0.7,48.228
+ai_act_qa.json,optimized_v2,40,0.42387,0.8,28.668
+gen_ai_usecases_qa.json,baseline,40,0.3575425,0.46153846153846156,12.086666666666666
+gen_ai_usecases_qa.json,optimized_v1,40,0.4241025,0.55,9.59575
+gen_ai_usecases_qa.json,optimized_v2,40,0.3392075,0.5,59.801
+national_parks_qa.json,baseline,27,0.17774074074074073,0.46153846153846156,106.13346153846153
+national_parks_qa.json,optimized_v1,27,0.27568888888888887,0.4444444444444444,48.62592592592593
+national_parks_qa.json,optimized_v2,27,0.2594925925925926,0.28,43.092400000000005
