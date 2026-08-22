@@ -1,0 +1,15 @@
+# Full notebook dependencies. Install the package itself with: pip install -e .
+chromadb>=0.5
+docling>=2
+google-genai>=1
+httpx>=0.27
+matplotlib>=3.8
+mistralai>=1
+numpy>=1.26
+openai>=1
+pymupdf>=1.24
+sentence-transformers>=3
+torch>=2
+
+# The original parser also used the THU/DASU docling hierarchical postprocessor.
+# Install it from its authorized source when available in your environment.
